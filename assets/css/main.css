@@ -2082,27 +2082,52 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: #a8b0b3 !important;
+		color: #ffffff !important;
 		opacity: 1.0;
 	}
 
 	:-moz-placeholder {
-		color: #a8b0b3 !important;
+		color: #ffffff !important;
 		opacity: 1.0;
 	}
 
 	::-moz-placeholder {
-		color: #a8b0b3 !important;
+		color: #ffffff !important;
 		opacity: 1.0;
 	}
 
 	:-ms-input-placeholder {
-		color: #a8b0b3 !important;
+		color: #ffffff !important;
 		opacity: 1.0;
 	}
 
 	.formerize-placeholder {
-		color: #a8b0b3 !important;
+		color: #ffffff !important;
+		opacity: 1.0;
+	}
+	
+	#footer .container:hover ::-webkit-input-placeholder {
+		color: #000000 !important;
+		opacity: 1.0;
+	}
+
+	#footer .container:hover :-moz-placeholder {
+		color: #000000 !important;
+		opacity: 1.0;
+	}
+
+	#footer .container:hover ::-moz-placeholder {
+		color: #000000 !important;
+		opacity: 1.0;
+	}
+
+	#footer .container:hover :-ms-input-placeholder {
+		color: #000000 !important;
+		opacity: 1.0;
+	}
+
+	#footer .container:hover .formerize-placeholder {
+		color: #000000 !important;
 		opacity: 1.0;
 	}
 
@@ -2250,6 +2275,11 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			color: rgba(255, 255, 255, 1);
+		}
+		
+		ul.icons:hover {
+			color: #8cd1a8;
 		}
 
 			ul.icons li {
@@ -2791,6 +2821,7 @@
 			border-color: white;
 			border-radius: 0px 0px 50px 50px;
 			border-width: 1px;
+			color: white;
 		}
 		
 		#footer .container:hover {
@@ -2801,6 +2832,7 @@
 			border-color: #6f7577;
 			border-radius: 0px 0px 50px 50px;
 			border-width: 1px;
+			color: black;
 		}
 
 		#footer footer {

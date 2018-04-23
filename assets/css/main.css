@@ -1339,7 +1339,7 @@
 	body, input, select, textarea {
 		color: #000000;
 		font-family: "Georgia", "Helvetica", sans-serif;
-		font-size: 15pt;
+		font-size: 12pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -2674,6 +2674,7 @@
 		.main .container p {
 			text-align: justify;
 			text-indent: 50px;
+			margin: 0px;
 		}
 
 			.main .container:before {
